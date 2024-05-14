@@ -102,4 +102,61 @@ print("O calculo fatorial é: ",soma)
 #8 - Desenvolva um programa em Python que permita ao usuário escolher um número e gere a tabuada desse número até um limite especificado pelo próprio usuário.
 
 
+n1 = int(input("Insira o seu primeiro número: "))
+n2 = int(input("Insira o limite do número: "))
 
+for i in range(1, n2+1):
+    print('{} x {} = {}'.format(n1,i,n1*i))
+
+#9 - Desenvolva um programa em Python que solicite ao usuário um número inteiro. O programa deverá então exibir a tabuada de multiplicação até o número escolhido pelo usuário, fazendo as multiplicações de 1 até 10.
+
+def tabuada():
+    try:
+        n1 = int(input("Insira o seu primeiro número: "))
+    except ValueError:
+        print('Número invalido')
+        print('')
+        tabuada()
+    for i in range(1,n1+1):
+        print("")
+        print('Essa é a tabuada do {}: '.format(i))
+        for u in range(1, 11):
+            print('{} x {} = {}'.format(i, u, i*u))
+        
+
+tabuada()
+
+
+
+
+"""
+Na primeira parte fazemos a identificação das camadas de um grande problema, logo na segunda a gente resolve uma das camadas que no caso é fazer com que o tanto de número que o úsuario coloque se torne em *, depois na terceira camada é colocada a conta que vai fazer com que forme um triângulo e depois na última camada você vai fazer com que o código centralize fazendo outra conta baseando na altura e no i que vai crescendo com forme a altura
+
+    " "*(n1-i)+ o espaço é multiplicado pelo número de altura que vai diminuindo com o i para que ele fique alinhado somando com o outro calculo
+
+
+"""
+
+
+#10 - Crie um programa em python que faça um triângulo da altura que o usuário escolher(Desafio)
+
+def tabuada():
+    try:
+        n1 = int(input("Insira a altura do triângulo: "))
+        altura(n1)
+    except ValueError:
+        print('Número invalido')
+        print('')
+        tabuada()
+        
+        
+
+def altura(n1):      
+    for i in range(n1):
+        print(" "*(n1-i)+"*"*(2*i+1))
+    
+    
+    
+    
+    
+tabuada()
