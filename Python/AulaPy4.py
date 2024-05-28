@@ -28,22 +28,6 @@ for i in range(1, 11 ):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #4 -Solicite dois números ao usuário e verifique quantos números pares ou ímpares existem entre esses dois números.
 
 
