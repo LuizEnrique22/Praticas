@@ -1,0 +1,169 @@
+html{
+
+background-color: teal;
+
+}
+
+.butao{
+
+text-align: center;
+padding: 50px;
+margin: 30px;
+
+}
+
+.bt1{
+
+color: whitesmoke;
+background-color: black;
+border: none;
+transition: ease-in-out 1s;
+
+}
+
+.bt1:hover{
+
+transform: scale(1.5);
+
+}
+
+.bt2{
+
+color: black;
+background-color: blueviolet;
+border: none;
+transition: all 0.6s;
+
+}
+
+.bt2:hover{
+
+transform: rotate(10deg) skew(300deg) scale(1.5);
+
+}
+
+.bt3{
+
+color: yellow;
+background-color: red;
+border: none;
+transition: all 1s;
+
+}
+
+.bt3:hover{
+
+transform: translate(30px, 30px);
+
+}
+
+.bt4{
+
+color: white;
+background-color: gray;
+border: none;
+transition: ease 1s;
+
+}
+
+.bt4:hover{
+
+transform: matrix(-1, 2, 3, 0, -2, 1);
+
+}
+
+.bt5{
+
+color: #72243d;
+background-color: #f0ffc9;
+border: none;
+transition: ease-in-out 1s;
+
+}
+
+.bt5:hover{
+
+transform: matrix(1, 0, 1, -1, 1, 0) translate(30px, 30px);
+
+}
+
+.bt6{
+
+color: #b8FAFF;
+background-color: #665C49;
+border: none;
+transition: all 1s;
+
+}
+
+.bt6:hover{
+
+
+transform: matrix(0, 1, 1, 0, 0, 0);
+font-size: large;
+
+
+}
+
+.bt7{
+
+color: #e72313;
+background-color: #141325;
+border: none;
+transition: ease-in 1s;
+
+}
+
+.bt7:hover{
+
+transform: scale(1.5) translate(40px, 1px);
+
+}
+
+.bt8{
+
+color: #012677;
+background-color: #00b4fc;
+border: none;
+transition: ease-out 1s;
+
+}
+
+.bt8:hover{
+
+transform: skew(20deg) rotate(100deg);
+font-size: large;
+color: #141325;
+background-color: #012677;
+
+}
+
+.bt9{
+
+color: #17f9ff;
+background-color: #001449;
+border: none;
+transition: ease-in-out 2s;
+
+}
+
+.bt9:hover{
+
+transform: perspective(150cm) rotateX(-150deg) rotateY(90deg);
+
+}
+
+.bt10{
+
+color: #fbfee5;
+background-color: #25232d;
+border: none;
+transition: all 1s;
+
+}
+
+.bt10:hover{
+
+transform: scale(1.5) skew(10deg) perspective(200cm) rotateZ(200deg) rotateY(200deg) translate(10px, 10px) matrix(-1, 2, 3, 0, -2, 1);
+
+}
